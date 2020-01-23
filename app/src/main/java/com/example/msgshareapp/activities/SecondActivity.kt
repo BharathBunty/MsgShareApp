@@ -1,7 +1,9 @@
-package com.example.msgshareapp
+package com.example.msgshareapp.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.msgshareapp.AppConstants
+import com.example.msgshareapp.R
 import kotlinx.android.synthetic.main.activity_second.*
 
 class SecondActivity : AppCompatActivity(){
@@ -10,7 +12,7 @@ class SecondActivity : AppCompatActivity(){
         setContentView(R.layout.activity_second)
 
         val bundle: Bundle? = intent.extras
-        val message = bundle!!.get("Message")
+        val message = bundle!!.get(AppConstants.USER_MESG_KEY)
         usrMsg.text = message.toString()
     }
 }

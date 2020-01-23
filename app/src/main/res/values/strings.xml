@@ -3,4 +3,11 @@
     <string name="show_toast">Show Toast</string>
     <string name="enter_your_message">Enter Your Message</string>
     <string name="send">Send</string>
+    <string name="share">Share</string>
+    <string name="title">Title</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="button_pressed">Button was pressed!</string>
+    <string name="data_success">Data Send Successfully !</string>
+    <string name="share_app">Share to :</string>
+    <string name="data_type_text">text/plain</string>
 </resources>

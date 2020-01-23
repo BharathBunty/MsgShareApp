@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MsgShareApp</string>
+    <string name="show_toast">Afficher le toast</string>
+    <string name="enter_your_message">Entrez votre message</string>
+    <string name="send">Envoyer</string>
+    <string name="share">Partager</string>
+    <string name="title">Titre</string>
+    <string name="hobbies">Loisirs</string>
+    <string name="button_pressed">Button was pressed!</string>
+    <string name="share_app">Share to :</string>
+    <string name="data_type_text">text/plain</string>
+    <string name="data_success">Data Send Successfully !</string>
+</resources>

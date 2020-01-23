@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_margin="20dp"
+    tools:context=".activities.MainActivity">
 
     <Button
        android:id="@+id/button"
@@ -25,9 +26,23 @@
         android:inputType="textCapCharacters" />
     <Button
         android:id="@+id/buttonSend"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="@string/send"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/share"
+        android:layout_below="@+id/buttonSend"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnShare"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hobbies"
+        android:layout_below="@+id/btnShare"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnRecView"/>
 
 </RelativeLayout>
